@@ -25,7 +25,7 @@ export function PricingItem({
     <article
       className={
         featured
-          ? "relative z-10 border border-[#E6EAF0] bg-[#E6EAF0] p-7 text-ink shadow-[0_34px_120px_rgba(30,167,255,0.18)] transition duration-500 hover:-translate-y-1 md:p-8 lg:scale-[1.035]"
+          ? "relative z-10 border border-[#E6EAF0] bg-[#E6EAF0] p-7 text-ink shadow-[0_34px_120px_rgba(30,167,255,0.18)] transition duration-500 hover:-translate-y-1 md:p-8"
           : "relative border border-white/10 bg-ink-soft p-7 text-white transition duration-500 hover:-translate-y-1 hover:border-ocean/35 hover:shadow-[0_24px_80px_rgba(0,0,0,0.28)] md:p-8"
       }
     >
