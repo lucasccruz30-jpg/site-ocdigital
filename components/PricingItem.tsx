@@ -52,7 +52,7 @@ export function PricingItem({
           {subtitle}
         </p>
         <h3 className="mt-5 text-3xl font-semibold">{name}</h3>
-        <p className="mt-4 font-display text-4xl font-semibold leading-none">
+        <p className="mt-4 font-display text-3xl font-semibold leading-none md:text-[34px]">
           {price}
         </p>
       </div>

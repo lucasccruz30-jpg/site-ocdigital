@@ -18,7 +18,7 @@ export function SectionIntro({
     return (
       <Reveal className="max-w-3xl blue-rule pt-7">
         <p className="text-xs font-semibold uppercase text-ocean">{eyebrow}</p>
-        <h2 className="mt-5 text-3xl font-semibold leading-[1.05] text-white text-balance md:text-5xl">
+        <h2 className="mt-5 text-3xl font-semibold leading-[1.08] text-white text-balance md:text-4xl lg:text-[44px]">
           {title}
         </h2>
         {description && (
@@ -34,7 +34,7 @@ export function SectionIntro({
     <Reveal className="grid gap-8 border-t border-white/10 pt-8 md:grid-cols-[0.75fr_1.25fr]">
       <p className="text-xs font-semibold uppercase text-ocean">{eyebrow}</p>
       <div>
-        <h2 className="text-3xl font-semibold leading-[1.05] text-white text-balance md:text-5xl">
+        <h2 className="text-3xl font-semibold leading-[1.08] text-white text-balance md:text-4xl lg:text-[44px]">
           {title}
         </h2>
         {description && (

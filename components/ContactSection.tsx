@@ -9,7 +9,7 @@ export function ContactSection() {
         <Reveal className="grid gap-12 lg:grid-cols-[1.12fr_0.88fr] lg:items-end">
           <div className="blue-rule pt-8">
             <p className="text-xs font-semibold uppercase text-ocean">Contato</p>
-            <h2 className="mt-6 max-w-3xl text-4xl font-semibold leading-[1.04] text-white text-balance md:text-5xl lg:text-6xl">
+            <h2 className="mt-6 max-w-3xl text-3xl font-semibold leading-[1.08] text-white text-balance md:text-4xl lg:text-[44px]">
               Fale com a OC Digital e receba uma direção clara para o seu site.
             </h2>
             <p className="mt-7 max-w-2xl text-lg leading-9 text-muted">

@@ -4,10 +4,10 @@ import { whatsappLink } from "./site-data";
 
 export function AuthorityBlock() {
   return (
-    <section className="relative overflow-hidden bg-white py-24 text-ink md:py-32">
+    <section className="relative overflow-hidden bg-[#ECEFF3] py-20 text-ink md:py-24">
       <div className="absolute inset-x-0 top-0 h-px bg-ocean" aria-hidden="true" />
       <div className="site-container">
-        <Reveal className="grid gap-12 md:grid-cols-[0.78fr_1.22fr]">
+        <Reveal className="grid gap-10 md:grid-cols-[0.78fr_1.22fr]">
           <div className="border-t border-ink/[0.12] pt-7">
             <p className="text-xs font-bold uppercase text-ocean-deep">
               Autoridade
@@ -19,7 +19,7 @@ export function AuthorityBlock() {
           </div>
 
           <div>
-            <h2 className="font-display text-4xl font-semibold leading-[1.02] text-ink text-balance md:text-6xl lg:text-7xl">
+            <h2 className="max-w-4xl font-display text-3xl font-semibold leading-[1.08] text-ink text-balance md:text-5xl lg:text-[56px]">
               Seu site não deve apenas existir. Ele precisa transmitir
               confiança, posicionar sua empresa e abrir novas oportunidades de
               negócio.

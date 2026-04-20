@@ -38,7 +38,7 @@ export function ProcessSection() {
               className="group grid gap-6 border-t border-white/10 py-8 md:grid-cols-[180px_1fr]"
             >
               <div className="flex items-start gap-5">
-                <span className="font-display text-6xl leading-none text-white/30 transition-colors duration-300 group-hover:text-ocean">
+                <span className="font-display text-5xl leading-none text-white/30 transition-colors duration-300 group-hover:text-ocean">
                   0{index + 1}
                 </span>
                 <span className="mt-4 h-px w-12 bg-white/12 transition-colors duration-300 group-hover:bg-ocean" />

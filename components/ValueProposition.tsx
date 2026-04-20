@@ -34,7 +34,7 @@ export function ValueProposition() {
             <p className="text-xs font-semibold uppercase text-ocean">
               Proposta de valor
             </p>
-            <h2 className="mt-6 text-3xl font-semibold leading-[1.05] text-white text-balance md:text-5xl">
+            <h2 className="mt-6 text-3xl font-semibold leading-[1.08] text-white text-balance md:text-4xl lg:text-[44px]">
               Percepção profissional antes do primeiro contato comercial.
             </h2>
             <p className="mt-8 text-lg leading-9 text-white/[0.68]">
