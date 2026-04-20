@@ -6,7 +6,7 @@ const plans = [
   {
     name: "Essencial",
     subtitle: "Projeto Piloto",
-    price: "A partir de R$ 500,00",
+    price: "A partir de R$ 800,00",
     cta: "Quero este plano",
     items: [
       "1 página (landing page)",
