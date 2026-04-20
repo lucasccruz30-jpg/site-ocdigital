@@ -1,6 +1,7 @@
 import { Reveal } from "./Reveal";
 import { SectionIntro } from "./SectionIntro";
 import { PricingItem } from "./PricingItem";
+import { getPlanWhatsAppLink } from "./site-data";
 
 const plans = [
   {
@@ -8,6 +9,7 @@ const plans = [
     subtitle: "Projeto Piloto",
     price: "A partir de R$ 800,00",
     cta: "Quero este plano",
+    href: getPlanWhatsAppLink("Essencial"),
     items: [
       "1 página (landing page)",
       "Design responsivo",
@@ -22,6 +24,7 @@ const plans = [
     subtitle: "Presença Completa",
     price: "A partir de R$ 1.800,00",
     cta: "Solicitar orçamento",
+    href: getPlanWhatsAppLink("Profissional"),
     badge: "Mais escolhido",
     featured: true,
     items: [
@@ -39,6 +42,7 @@ const plans = [
     subtitle: "Foco em Resultados",
     price: "A partir de R$ 3.500,00",
     cta: "Falar com especialista",
+    href: getPlanWhatsAppLink("Growth"),
     items: [
       "Tudo do plano profissional",
       "Estrutura de conversão",
@@ -63,11 +67,7 @@ export function PricingSection() {
 
         <div className="mt-16 grid gap-4 lg:grid-cols-3 lg:items-start">
           {plans.map((plan, index) => (
-            <Reveal
-              key={plan.name}
-              delay={index * 0.08}
-              className={plan.featured ? "lg:-mt-6" : "lg:mt-10"}
-            >
+            <Reveal key={plan.name} delay={index * 0.08}>
               <PricingItem {...plan} />
             </Reveal>
           ))}

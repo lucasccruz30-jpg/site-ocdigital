@@ -1,5 +1,4 @@
 import { ArrowUpRight, Check } from "lucide-react";
-import { whatsappLink } from "./site-data";
 
 type PricingItemProps = {
   name: string;
@@ -7,6 +6,7 @@ type PricingItemProps = {
   price: string;
   items: string[];
   cta: string;
+  href: string;
   badge?: string;
   featured?: boolean;
 };
@@ -17,6 +17,7 @@ export function PricingItem({
   price,
   items,
   cta,
+  href,
   badge,
   featured = false,
 }: PricingItemProps) {
@@ -71,7 +72,7 @@ export function PricingItem({
       </ul>
 
       <a
-        href={whatsappLink}
+        href={href}
         target="_blank"
         rel="noreferrer"
         className={
