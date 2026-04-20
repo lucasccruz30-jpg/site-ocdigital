@@ -56,7 +56,7 @@ export function ServiceShowcase() {
         />
 
         <div className="mt-16 grid gap-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-start">
-          <Reveal className="clip-panel-reverse relative min-h-[480px] overflow-hidden border border-white/10 bg-[#E6EAF0] text-ink">
+          <Reveal className="clip-panel-reverse relative min-h-[480px] overflow-hidden border border-white/10 bg-[#DCE3EB] text-ink">
             <div className="absolute right-0 top-0 h-full w-px bg-ocean" />
             <div className="flex h-full flex-col justify-between p-8 md:p-10">
               <div>

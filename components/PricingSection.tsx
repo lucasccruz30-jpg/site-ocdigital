@@ -61,13 +61,13 @@ export function PricingSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Planos"
-          title="Investimentos claros para empresas que querem avançar com segurança."
-          description="Os planos funcionam como pontos de partida. Cada projeto pode ser ajustado conforme escopo, urgência, quantidade de páginas e profundidade estratégica. O atendimento segue por ordem de contato."
+          title="Planos objetivos para colocar sua presença digital em movimento."
+          description="Escolha um ponto de partida e receba uma proposta ajustada ao escopo, prazo e profundidade estratégica do projeto. O atendimento segue por ordem de contato."
         />
 
-        <div className="mt-10 grid gap-4 lg:grid-cols-3 lg:items-start">
+        <div className="mt-10 grid gap-4 lg:grid-cols-3 lg:items-stretch">
           {plans.map((plan, index) => (
-            <Reveal key={plan.name} delay={index * 0.08}>
+            <Reveal key={plan.name} delay={index * 0.08} className="h-full">
               <PricingItem {...plan} />
             </Reveal>
           ))}

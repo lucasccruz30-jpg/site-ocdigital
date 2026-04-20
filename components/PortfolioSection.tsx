@@ -6,31 +6,32 @@ import { whatsappLink } from "./site-data";
 const projects = [
   {
     icon: Gavel,
-    title: "Escritório Jurídico Premium",
+    title: "Escritório Jurídico",
     description:
-      "Site institucional elegante para escritório de advocacia com foco em autoridade e captação.",
+      "Site institucional elegante para escritório de advocacia, com foco em autoridade, confiança e captação qualificada.",
     tag: "Autoridade institucional",
     metric: "Confiança",
-    accent: "from-ocean/24",
+    accent: "from-ocean/[0.24]",
     layout: "lg:col-span-2",
   },
   {
     icon: Smile,
-    title: "Clínica Odontológica Moderna",
-    description: "Site profissional com agendamento e foco em confiança.",
-    tag: "Saúde e agendamento",
+    title: "Clínica Premium",
+    description:
+      "Site profissional com apresentação refinada, agendamento simplificado e foco em transmitir segurança.",
+    tag: "Confiança e agenda",
     metric: "Agenda",
-    accent: "from-white/16",
+    accent: "from-white/[0.16]",
     layout: "",
   },
   {
     icon: MapPin,
-    title: "Loja / Negócio Local",
+    title: "Empresa Local Moderna",
     description:
-      "Landing page comercial para vendas e geração de contatos.",
+      "Landing page comercial para vendas, posicionamento local e geração de contatos pelo WhatsApp.",
     tag: "Conversão local",
     metric: "Leads",
-    accent: "from-ocean-deep/22",
+    accent: "from-ocean-deep/[0.22]",
     layout: "lg:col-span-3",
   },
 ];
@@ -40,18 +41,18 @@ function ProjectMockup({ index }: { index: number }) {
     <div className="relative overflow-hidden border border-white/10 bg-black p-4 transition duration-500 group-hover:border-ocean/40">
       <div className="flex items-center justify-between border-b border-white/10 pb-3">
         <div className="flex gap-1.5">
-          <span className="h-2 w-2 bg-white/28" />
-          <span className="h-2 w-2 bg-white/18" />
+          <span className="h-2 w-2 bg-white/[0.28]" />
+          <span className="h-2 w-2 bg-white/[0.18]" />
           <span className="h-2 w-2 bg-ocean" />
         </div>
-        <span className="h-px w-20 bg-white/18" />
+        <span className="h-px w-20 bg-white/[0.18]" />
       </div>
       <div className="grid min-h-[210px] gap-4 pt-5 md:grid-cols-[1.12fr_0.88fr]">
         <div className="space-y-4">
           <span className="block h-2 w-20 bg-ocean/80" />
-          <span className="block h-8 w-11/12 bg-white/88" />
-          <span className="block h-8 w-8/12 bg-white/74" />
-          <span className="block h-px w-full bg-white/12" />
+          <span className="block h-8 w-11/12 bg-white/[0.88]" />
+          <span className="block h-8 w-8/12 bg-white/[0.74]" />
+          <span className="block h-px w-full bg-white/[0.12]" />
           <div className="grid grid-cols-3 gap-2">
             <span className="h-12 bg-white/[0.08]" />
             <span className="h-12 bg-white/[0.12]" />
@@ -69,8 +70,8 @@ function ProjectMockup({ index }: { index: number }) {
             }`}
           />
           <div className="absolute bottom-4 left-4 right-4 space-y-2">
-            <span className="block h-2 w-3/4 bg-white/45" />
-            <span className="block h-2 w-1/2 bg-white/22" />
+            <span className="block h-2 w-3/4 bg-white/[0.45]" />
+            <span className="block h-2 w-1/2 bg-white/[0.22]" />
           </div>
         </div>
       </div>
@@ -84,8 +85,8 @@ export function PortfolioSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Projetos / Portfólio"
-          title="Estruturas digitais com aparência real de empresa pronta para vender."
-          description="Cases conceito que representam o tipo de presença que a OC Digital constrói: páginas com direção visual, clareza comercial e caminhos objetivos para gerar contato."
+          title="Projetos conceito com acabamento de marca pronta para vender."
+          description="Três aplicações visuais que mostram como a OC Digital transforma presença online em percepção de valor, clareza comercial e contato qualificado."
         />
 
         <div className="mt-16 grid gap-5 lg:grid-cols-3">
@@ -120,10 +121,10 @@ export function PortfolioSection() {
                         </p>
                       </div>
                       <div className="flex items-center justify-between border-t border-white/10 pt-5">
-                        <span className="font-display text-4xl text-white/32">
+                        <span className="font-display text-4xl text-white/[0.32]">
                           0{index + 1}
                         </span>
-                        <span className="text-xs font-bold uppercase text-white/48">
+                        <span className="text-xs font-bold uppercase text-white/[0.48]">
                           {project.metric}
                         </span>
                       </div>

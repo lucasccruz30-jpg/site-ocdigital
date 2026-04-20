@@ -35,7 +35,7 @@ export function TestimonialsSection() {
             <Reveal key={testimonial.mark} delay={index * 0.08}>
               <article className="group relative min-h-[310px] overflow-hidden border border-white/10 bg-ink-soft p-7 transition duration-500 hover:-translate-y-1 hover:border-ocean/40 hover:bg-[#101722]">
                 <div
-                  className="absolute right-0 top-0 h-28 w-28 border-b border-l border-white/10 bg-gradient-to-br from-ocean/18 to-transparent"
+                  className="absolute right-0 top-0 h-28 w-28 border-b border-l border-white/10 bg-gradient-to-br from-ocean/[0.18] to-transparent"
                   aria-hidden="true"
                 />
                 <div className="relative flex h-full flex-col justify-between gap-10">
@@ -53,7 +53,7 @@ export function TestimonialsSection() {
                     <span className="text-xs font-bold uppercase text-muted">
                       {testimonial.context}
                     </span>
-                    <span className="font-display text-3xl text-white/32">
+                    <span className="font-display text-3xl text-white/[0.32]">
                       {testimonial.mark}
                     </span>
                   </div>

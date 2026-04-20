@@ -1,7 +1,8 @@
 import { AboutSection } from "@/components/AboutSection";
-import { AuthorityBlock } from "@/components/AuthorityBlock";
+import { AuthorityReasonsSection } from "@/components/AuthorityReasonsSection";
 import { ContactSection } from "@/components/ContactSection";
 import { ConversionStrip } from "@/components/ConversionStrip";
+import { FinalCTASection } from "@/components/FinalCTASection";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
@@ -11,7 +12,6 @@ import { PricingSection } from "@/components/PricingSection";
 import { ProcessSection } from "@/components/ProcessSection";
 import { ServiceShowcase } from "@/components/ServiceShowcase";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
-import { TrustSection } from "@/components/TrustSection";
 import { ValueProposition } from "@/components/ValueProposition";
 import { WhatsAppFloatingButton } from "@/components/WhatsAppFloatingButton";
 
@@ -22,6 +22,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <PricingSection />
+        <AuthorityReasonsSection />
         <AboutSection />
         <ValueProposition />
         <ConversionStrip
@@ -40,7 +41,6 @@ export default function Home() {
           tone="light"
         />
         <MonthlyServices />
-        <TrustSection />
         <ProcessSection />
         <TestimonialsSection />
         <ConversionStrip
@@ -49,7 +49,7 @@ export default function Home() {
           text="Conte o momento da sua empresa e receba uma orientação objetiva sobre escopo, prazo e investimento."
           cta="Fale com a OC Digital"
         />
-        <AuthorityBlock />
+        <FinalCTASection />
         <ContactSection />
       </main>
       <Footer />

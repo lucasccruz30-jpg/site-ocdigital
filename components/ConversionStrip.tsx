@@ -20,7 +20,7 @@ export function ConversionStrip({
   const isLight = tone === "light";
 
   return (
-    <section className={isLight ? "bg-[#ECEFF3] text-ink" : "bg-ink text-white"}>
+    <section className={isLight ? "bg-[#DCE3EB] text-ink" : "bg-ink text-white"}>
       <div className="site-container">
         <Reveal
           className={`grid gap-8 border-y py-8 md:grid-cols-[0.9fr_1.1fr_auto] md:items-center ${

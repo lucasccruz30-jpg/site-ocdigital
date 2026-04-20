@@ -6,9 +6,9 @@ import Image from "next/image";
 import { whatsappLink } from "./site-data";
 
 const markers = [
-  "Agenda limitada para novos projetos",
-  "Estrutura estratégica",
-  "Atendimento por ordem de contato",
+  "Atendimento rápido",
+  "Design premium",
+  "Estrutura pensada para conversão",
 ];
 
 export function HeroSection() {
@@ -35,13 +35,13 @@ export function HeroSection() {
               OC Digital / presença profissional
             </div>
             <h1 className="max-w-[720px] text-4xl font-semibold leading-[1.06] text-white text-balance sm:text-5xl lg:text-[54px] xl:text-[58px]">
-              Sites profissionais para empresas que querem crescer com
+              Sites profissionais para empresas que querem crescer com mais
               autoridade.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-8 text-white/[0.68] md:mt-7 md:text-lg md:leading-8">
-              Desenvolvemos presença digital profissional para empresas que
-              precisam se apresentar melhor, transmitir confiança e transformar
-              visitantes qualificados em conversas comerciais.
+              Criamos presença digital estratégica para empresas que desejam
+              transmitir credibilidade, atrair oportunidades e evoluir no
+              digital.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row md:mt-9">
@@ -51,14 +51,14 @@ export function HeroSection() {
                 rel="noreferrer"
                 className="group inline-flex h-[52px] items-center justify-center gap-3 bg-white px-6 text-sm font-bold text-ink transition duration-300 hover:bg-ocean hover:text-white"
               >
-                Solicitar análise inicial
+                Solicitar orçamento
                 <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
-                href="#planos"
+                href="#servicos"
                 className="inline-flex h-[52px] items-center justify-center gap-3 border border-white/[0.12] px-6 text-sm font-semibold text-white transition duration-300 hover:border-white/[0.35] hover:bg-white/[0.06]"
               >
-                Ver planos
+                Ver soluções
                 <ArrowDown className="h-4 w-4" />
               </a>
             </div>
