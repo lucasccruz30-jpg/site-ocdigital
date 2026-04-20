@@ -57,7 +57,7 @@ const plans = [
 
 export function PricingSection() {
   return (
-    <section id="planos" className="relative bg-ink-soft py-24 md:py-32">
+    <section id="planos" className="relative bg-ink-soft py-20 md:py-24">
       <div className="site-container">
         <SectionIntro
           eyebrow="Planos"
@@ -65,7 +65,7 @@ export function PricingSection() {
           description="Os planos funcionam como pontos de partida. Cada projeto pode ser ajustado conforme escopo, urgência, quantidade de páginas e profundidade estratégica. O atendimento segue por ordem de contato."
         />
 
-        <div className="mt-16 grid gap-4 lg:grid-cols-3 lg:items-start">
+        <div className="mt-10 grid gap-4 lg:grid-cols-3 lg:items-start">
           {plans.map((plan, index) => (
             <Reveal key={plan.name} delay={index * 0.08}>
               <PricingItem {...plan} />
