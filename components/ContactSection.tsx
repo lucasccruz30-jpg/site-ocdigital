@@ -10,12 +10,12 @@ export function ContactSection() {
           <div className="blue-rule pt-8">
             <p className="text-xs font-semibold uppercase text-ocean">Contato</p>
             <h2 className="mt-6 max-w-4xl text-5xl font-semibold leading-[0.98] text-white text-balance md:text-7xl">
-              Vamos transformar sua presença digital em um ponto de confiança.
+              Fale com a OC Digital e receba uma direção clara para o seu site.
             </h2>
             <p className="mt-7 max-w-2xl text-lg leading-9 text-muted">
               Envie uma mensagem pelo WhatsApp e conte o momento da sua empresa.
-              A OC Digital responde com clareza sobre escopo, prazo e melhor
-              caminho para o projeto.
+              A OC Digital responde com clareza sobre escopo, prazo, investimento
+              e melhor caminho para transformar presença em oportunidade.
             </p>
           </div>
 

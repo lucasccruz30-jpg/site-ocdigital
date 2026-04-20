@@ -25,14 +25,17 @@ export function PricingItem({
     <article
       className={
         featured
-          ? "relative border border-white bg-white p-7 text-ink md:p-8"
-          : "relative border border-white/10 bg-ink-soft p-7 text-white md:p-8"
+          ? "relative z-10 border border-white bg-white p-7 text-ink shadow-[0_34px_120px_rgba(30,167,255,0.18)] transition duration-500 hover:-translate-y-1 md:p-8 lg:scale-[1.035]"
+          : "relative border border-white/10 bg-ink-soft p-7 text-white transition duration-500 hover:-translate-y-1 hover:border-ocean/35 hover:shadow-[0_24px_80px_rgba(0,0,0,0.28)] md:p-8"
       }
     >
       {badge && (
         <span className="absolute right-5 top-5 border border-ocean/40 bg-ocean px-3 py-1 text-xs font-bold uppercase text-white">
           {badge}
         </span>
+      )}
+      {featured && (
+        <span className="absolute inset-x-7 top-0 h-px bg-gradient-to-r from-transparent via-ocean to-transparent" />
       )}
       <div
         className={`min-h-[156px] border-b pb-7 ${

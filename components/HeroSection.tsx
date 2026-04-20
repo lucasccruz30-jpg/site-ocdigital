@@ -5,7 +5,11 @@ import { ArrowDown, ArrowUpRight, Check, MousePointer2 } from "lucide-react";
 import Image from "next/image";
 import { whatsappLink } from "./site-data";
 
-const markers = ["Design profissional", "Estrutura estratégica", "Atendimento rápido"];
+const markers = [
+  "Agenda limitada para novos projetos",
+  "Estrutura estratégica",
+  "Atendimento por ordem de contato",
+];
 
 export function HeroSection() {
   return (
@@ -35,9 +39,9 @@ export function HeroSection() {
               autoridade no digital.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-white/[0.68] md:mt-7 md:text-xl md:leading-9">
-              Criamos páginas e sites institucionais com visual estratégico,
-              estrutura profissional e foco em presença digital, credibilidade
-              e conversão.
+              Desenvolvemos presença digital profissional para empresas que
+              precisam se apresentar melhor, transmitir confiança e transformar
+              visitantes qualificados em conversas comerciais.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row md:mt-9">
@@ -47,7 +51,7 @@ export function HeroSection() {
                 rel="noreferrer"
                 className="group inline-flex h-[52px] items-center justify-center gap-3 bg-white px-6 text-sm font-bold text-ink transition duration-300 hover:bg-ocean hover:text-white"
               >
-                Solicitar orçamento
+                Solicitar análise inicial
                 <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
@@ -116,7 +120,8 @@ export function HeroSection() {
             <div className="absolute bottom-10 left-0 flex w-64 items-center gap-4 border border-white/10 bg-ink/[0.88] p-5 backdrop-blur-md">
               <MousePointer2 className="h-5 w-5 text-ocean" />
               <p className="text-sm leading-6 text-white/[0.68]">
-                Experiência pensada para transformar atenção em contato.
+                Experiência pensada para transformar percepção em contato
+                qualificado.
               </p>
             </div>
           </motion.div>

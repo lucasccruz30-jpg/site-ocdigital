@@ -30,7 +30,7 @@ export function MonthlyServices() {
               Serviços mensais
             </p>
             <h2 className="mt-5 text-4xl font-semibold leading-tight text-white text-balance md:text-5xl">
-              Evolução contínua para manter sua presença ativa.
+              Evolução contínua para manter sua presença ativa e competitiva.
             </h2>
           </div>
 
@@ -59,7 +59,7 @@ export function MonthlyServices() {
               rel="noreferrer"
               className="group inline-flex items-center gap-3 py-7 text-sm font-bold text-white transition-colors duration-300 hover:text-ocean"
             >
-              Conversar sobre recorrência
+              Fale sobre evolução mensal
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
           </div>

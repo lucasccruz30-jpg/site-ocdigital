@@ -13,32 +13,32 @@ const services = [
   {
     icon: FileText,
     title: "Landing Pages",
-    text: "Páginas focadas em campanha, oferta, captação de leads e apresentação objetiva de um serviço.",
+    text: "Páginas com narrativa comercial, oferta clara e caminho direto para transformar interesse em contato.",
   },
   {
     icon: Code2,
     title: "Sites Institucionais",
-    text: "Estruturas completas para empresas que precisam de uma presença sólida, clara e confiável.",
+    text: "Estruturas completas para empresas que precisam se apresentar com autoridade, clareza e presença consistente.",
   },
   {
     icon: Send,
     title: "Estrutura digital para empresas",
-    text: "Organização de páginas, canais de contato, mensuração e base comercial para crescer online.",
+    text: "Organização de páginas, canais de contato, mensuração e base comercial para crescer com mais previsibilidade.",
   },
   {
     icon: LifeBuoy,
     title: "Suporte e evolução contínua",
-    text: "Ajustes, melhorias e acompanhamento para manter o site atual, funcional e estratégico.",
+    text: "Ajustes, melhorias e acompanhamento para manter a presença digital atual, funcional e comercialmente forte.",
   },
   {
     icon: Search,
     title: "SEO contínuo",
-    text: "Evolução técnica e editorial para ampliar relevância, indexação e presença nas buscas.",
+    text: "Evolução técnica e editorial para ampliar relevância, indexação e presença em buscas estratégicas.",
   },
   {
     icon: BarChart3,
     title: "Gestão de tráfego",
-    text: "Configuração e acompanhamento de campanhas para gerar visitas qualificadas e oportunidades.",
+    text: "Configuração e acompanhamento de campanhas para gerar visitas qualificadas, mensuração e oportunidades reais.",
   },
 ];
 
@@ -52,7 +52,7 @@ export function ServiceShowcase() {
         <SectionIntro
           eyebrow="Serviços"
           title="Construímos a estrutura que sustenta uma marca mais clara, confiável e pronta para vender."
-          description="A atuação da OC Digital combina criação visual, organização comercial e fundamentos técnicos para que o site seja bonito, funcional e útil para o crescimento."
+          description="A atuação da OC Digital combina direção visual, organização comercial e fundamentos técnicos para que o site represente valor, reduza dúvidas e facilite o próximo contato."
         />
 
         <div className="mt-16 grid gap-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-start">

@@ -26,8 +26,8 @@ export function ProcessSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Processo"
-          title="Método simples, organizado e transparente do primeiro contato à entrega."
-          description="O projeto avança por etapas claras, com decisões objetivas e foco em chegar a um site que represente bem a empresa."
+          title="Método organizado para transformar briefing em presença digital confiável."
+          description="O projeto avança por etapas claras, com decisões objetivas, comunicação próxima e foco em chegar a um site que represente bem a empresa."
         />
 
         <div className="mt-16 grid gap-5">

@@ -61,8 +61,8 @@ export function PricingSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Planos"
-          title="Investimentos claros para diferentes momentos de presença digital."
-          description="Os planos funcionam como pontos de partida. Cada projeto pode ser ajustado conforme escopo, urgência, quantidade de páginas e profundidade estratégica."
+          title="Investimentos claros para empresas que querem avançar com segurança."
+          description="Os planos funcionam como pontos de partida. Cada projeto pode ser ajustado conforme escopo, urgência, quantidade de páginas e profundidade estratégica. O atendimento segue por ordem de contato."
         />
 
         <div className="mt-16 grid gap-4 lg:grid-cols-3 lg:items-start">

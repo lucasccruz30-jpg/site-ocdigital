@@ -35,12 +35,13 @@ export function ValueProposition() {
               Proposta de valor
             </p>
             <h2 className="mt-6 text-4xl font-semibold leading-[0.98] text-white text-balance md:text-6xl">
-              Um site profissional muda a forma como sua empresa é percebida.
+              Percepção profissional antes do primeiro contato comercial.
             </h2>
             <p className="mt-8 text-lg leading-9 text-white/[0.68]">
-              Quando a comunicação visual, a estrutura das páginas e o caminho
-              de conversão estão alinhados, o site deixa de ser um endereço e
-              passa a ser um ativo de confiança.
+              Quando comunicação visual, estrutura das páginas e caminho de
+              conversão estão alinhados, o site deixa de ser um endereço e
+              passa a ser uma ferramenta de confiança, posicionamento e geração
+              de oportunidades.
             </p>
             <a
               href="#planos"

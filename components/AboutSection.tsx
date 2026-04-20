@@ -14,7 +14,7 @@ export function AboutSection() {
         <SectionIntro
           eyebrow="Sobre a OC Digital"
           title="Uma presença online mais madura começa por uma estrutura que transmite confiança."
-          description="A OC Digital cria sites profissionais, landing pages e estruturas digitais para empresas que precisam se apresentar melhor, vender com mais clareza e sustentar uma imagem mais sólida no ambiente online."
+          description="A OC Digital desenvolve presença digital profissional para empresas que precisam se apresentar melhor, vender com mais clareza e sustentar uma imagem sólida antes mesmo do primeiro atendimento."
         />
 
         <div className="mt-16 grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
@@ -27,9 +27,9 @@ export function AboutSection() {
 
           <Reveal delay={0.1} className="space-y-9">
             <p className="text-lg leading-9 text-white/70">
-              Um site não é apenas uma vitrine. Ele organiza a percepção da sua
-              empresa, reduz dúvidas, reforça autoridade e cria um caminho mais
-              direto para o cliente tomar uma decisão.
+              Um site bem construído não apenas informa. Ele organiza a
+              percepção da sua empresa, reduz dúvidas, reforça autoridade e cria
+              um caminho mais direto para o cliente iniciar uma conversa.
             </p>
             <div className="divide-y divide-white/10 border-y border-white/10">
               {facts.map((item) => (
