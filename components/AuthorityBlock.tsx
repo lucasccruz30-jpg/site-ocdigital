@@ -19,7 +19,7 @@ export function AuthorityBlock() {
           </div>
 
           <div>
-            <h2 className="font-display text-5xl font-semibold leading-[0.96] text-ink text-balance md:text-7xl lg:text-8xl">
+            <h2 className="font-display text-4xl font-semibold leading-[1.02] text-ink text-balance md:text-6xl lg:text-7xl">
               Seu site não deve apenas existir. Ele precisa transmitir
               confiança, posicionar sua empresa e abrir novas oportunidades de
               negócio.

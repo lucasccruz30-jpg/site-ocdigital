@@ -35,7 +35,7 @@ export function ConversionStrip({
             >
               {eyebrow}
             </p>
-            <h2 className="mt-3 text-3xl font-semibold leading-tight text-balance md:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold leading-tight text-balance md:text-3xl">
               {title}
             </h2>
           </div>

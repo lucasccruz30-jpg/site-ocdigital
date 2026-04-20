@@ -29,7 +29,7 @@ export function MonthlyServices() {
             <p className="text-xs font-semibold uppercase text-ocean">
               Serviços mensais
             </p>
-            <h2 className="mt-5 text-4xl font-semibold leading-tight text-white text-balance md:text-5xl">
+            <h2 className="mt-5 text-3xl font-semibold leading-tight text-white text-balance md:text-4xl">
               Evolução contínua para manter sua presença ativa e competitiva.
             </h2>
           </div>

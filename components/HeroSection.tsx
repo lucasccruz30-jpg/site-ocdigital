@@ -34,11 +34,11 @@ export function HeroSection() {
               <span className="h-px w-10 bg-ocean" />
               OC Digital / presença profissional
             </div>
-            <h1 className="max-w-5xl text-[44px] font-semibold leading-[0.95] text-white text-balance sm:text-6xl lg:text-7xl xl:text-[86px]">
-              Sites profissionais para empresas que querem crescer com mais
-              autoridade no digital.
+            <h1 className="max-w-[760px] text-[38px] font-semibold leading-[1.02] text-white text-balance sm:text-5xl lg:text-[58px] xl:text-[64px]">
+              Sites profissionais para empresas que querem crescer com
+              autoridade.
             </h1>
-            <p className="mt-6 max-w-2xl text-base leading-8 text-white/[0.68] md:mt-7 md:text-xl md:leading-9">
+            <p className="mt-6 max-w-xl text-base leading-8 text-white/[0.68] md:mt-7 md:text-lg md:leading-8">
               Desenvolvemos presença digital profissional para empresas que
               precisam se apresentar melhor, transmitir confiança e transformar
               visitantes qualificados em conversas comerciais.

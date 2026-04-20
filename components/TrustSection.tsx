@@ -28,7 +28,7 @@ export function TrustSection() {
             <p className="text-xs font-semibold uppercase text-ocean">
               Redução de risco
             </p>
-            <h2 className="mt-5 text-4xl font-semibold leading-tight text-white text-balance md:text-5xl">
+            <h2 className="mt-5 text-3xl font-semibold leading-tight text-white text-balance md:text-4xl">
               Atendimento próximo do início à entrega
             </h2>
             <p className="mt-6 max-w-xl text-base leading-8 text-muted md:text-lg">

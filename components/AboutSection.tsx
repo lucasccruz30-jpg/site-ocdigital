@@ -19,7 +19,7 @@ export function AboutSection() {
 
         <div className="mt-16 grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <Reveal className="border-l border-white/10 pl-6 md:pl-10">
-            <p className="font-display text-4xl leading-[1.06] text-white md:text-6xl">
+            <p className="font-display text-3xl leading-[1.12] text-white md:text-5xl">
               Design como presença. Estrutura como estratégia. Clareza como
               ativo comercial.
             </p>
