@@ -9,7 +9,7 @@ const facts = [
 
 export function AboutSection() {
   return (
-    <section id="sobre" className="section-rule bg-ink py-24 md:py-32">
+    <section id="sobre" className="section-rule bg-ink py-[72px] md:py-[88px]">
       <div className="site-container">
         <SectionIntro
           eyebrow="Sobre a OC Digital"
@@ -17,7 +17,7 @@ export function AboutSection() {
           description="A OC Digital desenvolve presença digital profissional para empresas que precisam se apresentar melhor, vender com mais clareza e sustentar uma imagem sólida antes mesmo do primeiro atendimento."
         />
 
-        <div className="mt-16 grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+        <div className="mt-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <Reveal className="border-l border-white/10 pl-6 md:pl-10">
             <p className="font-display text-3xl leading-[1.12] text-white md:text-5xl">
               Design como presença. Estrutura como estratégia. Clareza como
