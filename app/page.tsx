@@ -21,6 +21,7 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
+        <PricingSection />
         <AboutSection />
         <ValueProposition />
         <ConversionStrip
@@ -38,7 +39,6 @@ export default function Home() {
           cta="Quero uma análise"
           tone="light"
         />
-        <PricingSection />
         <MonthlyServices />
         <TrustSection />
         <ProcessSection />

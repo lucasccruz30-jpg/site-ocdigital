@@ -15,9 +15,9 @@ export const contact = {
 
 export const navItems = [
   { href: "#sobre", label: "Sobre" },
+  { href: "#planos", label: "Planos" },
   { href: "#servicos", label: "Serviços" },
   { href: "#portfolio", label: "Projetos" },
-  { href: "#planos", label: "Planos" },
   { href: "#processo", label: "Processo" },
   { href: "#contato", label: "Contato" },
 ];
