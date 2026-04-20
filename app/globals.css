@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #050505;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(13, 17, 23, 0.32) 0%, rgba(5, 5, 5, 0) 520px),
+    #050505;
+  color: #ffffff;
+  font-family: var(--font-sans), Arial, sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(30, 167, 255, 0.34);
+  color: #ffffff;
+}
+
+.site-container {
+  width: min(100% - 32px, 1180px);
+  margin-inline: auto;
+}
+
+.wide-container {
+  width: min(100% - 32px, 1360px);
+  margin-inline: auto;
+}
+
+.fine-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.section-rule {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.clip-panel {
+  clip-path: polygon(0 6%, 100% 0, 100% 92%, 82% 100%, 0 100%);
+}
+
+.clip-panel-reverse {
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 18% 100%, 0 92%);
+}
+
+.blue-rule {
+  position: relative;
+}
+
+.blue-rule::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 72px;
+  height: 1px;
+  background: linear-gradient(90deg, #1ea7ff, rgba(30, 167, 255, 0));
+}
+
+@media (max-width: 640px) {
+  .site-container,
+  .wide-container {
+    width: min(100% - 24px, 1180px);
+  }
+}
