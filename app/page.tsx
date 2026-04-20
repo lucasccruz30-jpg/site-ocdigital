@@ -27,8 +27,8 @@ export default function Home() {
         <ValueProposition />
         <ConversionStrip
           eyebrow="Agenda limitada para novos projetos"
-          title="Solicite seu orçamento agora"
-          text="Receba uma leitura inicial sobre a melhor estrutura para apresentar sua empresa com mais autoridade."
+          title="Solicite uma análise inicial"
+          text="Receba uma leitura objetiva sobre a melhor estrutura para posicionar sua empresa com mais autoridade no digital."
           cta="Falar pelo WhatsApp"
         />
         <ServiceShowcase />
@@ -36,7 +36,7 @@ export default function Home() {
         <ConversionStrip
           eyebrow="Solicite análise inicial"
           title="Vamos modernizar sua presença digital"
-          text="Se sua empresa já vende bem no atendimento, o site precisa transmitir esse mesmo nível antes da conversa começar."
+          text="Se sua empresa já entrega bem, o site precisa transmitir esse mesmo nível antes da conversa começar."
           cta="Quero uma análise"
           tone="light"
         />

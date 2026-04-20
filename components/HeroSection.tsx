@@ -8,7 +8,7 @@ import { whatsappLink } from "./site-data";
 const markers = [
   "Atendimento rápido",
   "Design premium",
-  "Estrutura pensada para conversão",
+  "Estrutura para conversão",
 ];
 
 export function HeroSection() {
@@ -35,13 +35,12 @@ export function HeroSection() {
               OC Digital / presença profissional
             </div>
             <h1 className="max-w-[720px] text-4xl font-semibold leading-[1.06] text-white text-balance sm:text-5xl lg:text-[54px] xl:text-[58px]">
-              Sites profissionais para empresas que querem crescer com mais
-              autoridade.
+              Sites profissionais para empresas que querem crescer com
+              autoridade no digital.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-8 text-white/[0.68] md:mt-7 md:text-lg md:leading-8">
-              Criamos presença digital estratégica para empresas que desejam
-              transmitir credibilidade, atrair oportunidades e evoluir no
-              digital.
+              Criamos presença digital estratégica para negócios que desejam
+              transmitir credibilidade, gerar oportunidades e evoluir online.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row md:mt-9">

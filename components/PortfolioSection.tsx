@@ -16,9 +16,9 @@ const projects = [
   },
   {
     icon: Smile,
-    title: "Clínica Premium",
+    title: "Clínica Moderna",
     description:
-      "Site profissional com apresentação refinada, agendamento simplificado e foco em transmitir segurança.",
+      "Site profissional com apresentação refinada, agendamento simplificado e foco em gerar confiança.",
     tag: "Confiança e agenda",
     metric: "Agenda",
     accent: "from-white/[0.16]",
@@ -26,9 +26,9 @@ const projects = [
   },
   {
     icon: MapPin,
-    title: "Empresa Local Moderna",
+    title: "Empresa Local Premium",
     description:
-      "Landing page comercial para vendas, posicionamento local e geração de contatos pelo WhatsApp.",
+      "Landing page comercial para posicionamento local, vendas e geração de contatos pelo WhatsApp.",
     tag: "Conversão local",
     metric: "Leads",
     accent: "from-ocean-deep/[0.22]",
@@ -85,8 +85,8 @@ export function PortfolioSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Projetos / Portfólio"
-          title="Projetos conceito com acabamento de marca pronta para vender."
-          description="Três aplicações visuais que mostram como a OC Digital transforma presença online em percepção de valor, clareza comercial e contato qualificado."
+          title="Cases conceito com aparência de marcas prontas para crescer."
+          description="Três direções visuais que mostram como a OC Digital transforma presença online em percepção de valor, clareza comercial e contato qualificado."
         />
 
         <div className="mt-16 grid gap-5 lg:grid-cols-3">

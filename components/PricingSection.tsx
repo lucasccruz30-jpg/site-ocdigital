@@ -31,10 +31,10 @@ const plans = [
       "Até 5 páginas",
       "Página inicial, sobre, serviços e contato",
       "Design personalizado",
-      "Copy básica focada em conversão",
+      "Copy comercial focada em conversão",
       "SEO inicial estruturado",
       "Integração com WhatsApp e formulário",
-      "Google Analytics básico",
+      "Google Analytics configurado",
     ],
   },
   {
@@ -50,7 +50,7 @@ const plans = [
       "Integração com CRM ou automações simples",
       "Meta Pixel + Google Ads configurado",
       "SEO mais avançado",
-      "Direcionamento inicial para tráfego",
+      "Direcionamento inicial para tráfego pago",
     ],
   },
 ];
@@ -61,8 +61,8 @@ export function PricingSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Planos"
-          title="Planos objetivos para colocar sua presença digital em movimento."
-          description="Escolha um ponto de partida e receba uma proposta ajustada ao escopo, prazo e profundidade estratégica do projeto. O atendimento segue por ordem de contato."
+          title="Planos comerciais para estruturar sua presença com clareza."
+          description="Escolha um ponto de partida e receba uma proposta ajustada ao escopo, prazo e profundidade estratégica. O atendimento segue por ordem de contato."
         />
 
         <div className="mt-10 grid gap-4 lg:grid-cols-3 lg:items-stretch">

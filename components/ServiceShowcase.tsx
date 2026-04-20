@@ -13,7 +13,7 @@ const services = [
   {
     icon: FileText,
     title: "Landing Pages",
-    text: "Páginas com narrativa comercial, oferta clara e caminho direto para transformar interesse em contato.",
+    text: "Páginas com narrativa comercial, oferta clara e caminho direto para transformar interesse em conversa qualificada.",
   },
   {
     icon: Code2,
@@ -23,7 +23,7 @@ const services = [
   {
     icon: Send,
     title: "Estrutura digital para empresas",
-    text: "Organização de páginas, canais de contato, mensuração e base comercial para crescer com mais previsibilidade.",
+    text: "Organização de páginas, canais de contato, mensuração e base comercial para crescer com mais autoridade.",
   },
   {
     icon: LifeBuoy,
@@ -51,7 +51,7 @@ export function ServiceShowcase() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Serviços"
-          title="Construímos a estrutura que sustenta uma marca mais clara, confiável e pronta para vender."
+          title="Soluções digitais para empresas que precisam parecer mais fortes no online."
           description="A atuação da OC Digital combina direção visual, organização comercial e fundamentos técnicos para que o site represente valor, reduza dúvidas e facilite o próximo contato."
         />
 

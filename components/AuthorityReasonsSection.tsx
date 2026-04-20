@@ -15,18 +15,18 @@ const reasons = [
   },
   {
     icon: Eye,
-    title: "Visual estratégico",
-    text: "Direção visual pensada para transmitir valor, confiança e posicionamento profissional.",
+    title: "Design estratégico",
+    text: "Direção visual pensada para transmitir valor, confiança e posicionamento desde o primeiro acesso.",
   },
   {
     icon: LineChart,
     title: "Foco em resultado",
-    text: "Estrutura criada para facilitar contato, reduzir dúvidas e apoiar decisões comerciais.",
+    text: "Estrutura criada para facilitar contato, reduzir dúvidas e apoiar decisões comerciais com mais segurança.",
   },
   {
     icon: BadgeCheck,
-    title: "Estrutura profissional",
-    text: "Páginas, chamadas e integrações organizadas para uma presença comercial online consistente.",
+    title: "Soluções sob medida",
+    text: "Páginas, chamadas e integrações ajustadas ao momento, ao objetivo e ao perfil comercial da empresa.",
   },
 ];
 
@@ -37,7 +37,7 @@ export function AuthorityReasonsSection() {
         <SectionIntro
           eyebrow="Autoridade"
           title="Por que empresas escolhem a OC Digital?"
-          description="A OC Digital estrutura presença digital para empresas que precisam parecer mais confiáveis, organizar sua comunicação e transformar percepção em oportunidade real."
+          description="A OC Digital estrutura presença digital para empresas que precisam transmitir confiança, sustentar autoridade e transformar percepção em oportunidade real."
         />
 
         <div className="mt-12 grid gap-6 lg:grid-cols-[0.72fr_1.28fr] lg:items-stretch">
@@ -52,7 +52,7 @@ export function AuthorityReasonsSection() {
                   Método comercial
                 </span>
                 <p className="mt-6 max-w-sm text-3xl font-semibold leading-tight text-white md:text-4xl">
-                  Presença online com direção, clareza e acabamento profissional.
+                  Presença online com direção, posicionamento e acabamento profissional.
                 </p>
               </div>
               <div className="grid grid-cols-2 border-t border-white/10 pt-6">

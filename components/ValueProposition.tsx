@@ -5,7 +5,7 @@ const values = [
   {
     icon: ShieldCheck,
     title: "Credibilidade imediata",
-    text: "A primeira impressão passa a trabalhar a favor da empresa, com visual consistente e informação organizada.",
+    text: "A primeira impressão passa a trabalhar a favor da empresa, com visual consistente, informação clara e posicionamento seguro.",
   },
   {
     icon: Sparkles,
@@ -15,7 +15,7 @@ const values = [
   {
     icon: BadgeCheck,
     title: "Clareza comercial",
-    text: "Serviços, diferenciais e próximos passos aparecem de forma objetiva, reduzindo atrito na decisão.",
+    text: "Serviços, diferenciais e próximos passos aparecem de forma objetiva, reduzindo atrito até o contato.",
   },
   {
     icon: LineChart,
@@ -35,13 +35,13 @@ export function ValueProposition() {
               Proposta de valor
             </p>
             <h2 className="mt-6 text-3xl font-semibold leading-[1.08] text-white text-balance md:text-4xl lg:text-[44px]">
-              Percepção profissional antes do primeiro contato comercial.
+              Antes do contato, sua empresa já precisa transmitir confiança.
             </h2>
             <p className="mt-8 text-lg leading-9 text-white/[0.68]">
               Quando comunicação visual, estrutura das páginas e caminho de
-              conversão estão alinhados, o site deixa de ser um endereço e
-              passa a ser uma ferramenta de confiança, posicionamento e geração
-              de oportunidades.
+              conversão estão alinhados, o site deixa de ser apenas um endereço
+              e passa a sustentar autoridade, posicionamento e geração de
+              oportunidades.
             </p>
             <a
               href="#planos"

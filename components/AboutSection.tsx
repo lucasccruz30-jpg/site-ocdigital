@@ -2,9 +2,9 @@ import { SectionIntro } from "./SectionIntro";
 import { Reveal } from "./Reveal";
 
 const facts = [
-  { label: "Foco", value: "Presença digital com critério comercial" },
-  { label: "Entrega", value: "Sites claros, rápidos e prontos para contato" },
-  { label: "Método", value: "Design, copy e estrutura trabalhando juntos" },
+  { label: "Foco", value: "Presença digital com critério de negócio" },
+  { label: "Entrega", value: "Estrutura clara para gerar contato qualificado" },
+  { label: "Método", value: "Design, copy e conversão trabalhando juntos" },
 ];
 
 export function AboutSection() {
@@ -13,8 +13,8 @@ export function AboutSection() {
       <div className="site-container">
         <SectionIntro
           eyebrow="Sobre a OC Digital"
-          title="Uma presença online mais madura começa por uma estrutura que transmite confiança."
-          description="A OC Digital desenvolve presença digital profissional para empresas que precisam se apresentar melhor, vender com mais clareza e sustentar uma imagem sólida antes mesmo do primeiro atendimento."
+          title="Autoridade digital começa por uma presença que transmite segurança."
+          description="A OC Digital desenvolve presença comercial online para empresas que precisam se apresentar melhor, sustentar valor percebido e gerar conversas mais qualificadas."
         />
 
         <div className="mt-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
@@ -28,8 +28,8 @@ export function AboutSection() {
           <Reveal delay={0.1} className="space-y-9">
             <p className="text-lg leading-9 text-white/70">
               Um site bem construído não apenas informa. Ele organiza a
-              percepção da sua empresa, reduz dúvidas, reforça autoridade e cria
-              um caminho mais direto para o cliente iniciar uma conversa.
+              percepção da sua empresa, reduz dúvidas, reforça autoridade e
+              conduz o visitante para uma decisão de contato mais segura.
             </p>
             <div className="divide-y divide-white/10 border-y border-white/10">
               {facts.map((item) => (
